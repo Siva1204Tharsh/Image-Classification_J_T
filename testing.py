@@ -16,9 +16,9 @@ def classify(img_path):
     img = np.expand_dims(img, axis = 0)
     pred = model.predict(img)
     if pred[0][0] ==1:
-        return "Sangakkara"
-    else:
         return "Vadivelu"
+    else:
+        return "Sangakkara"
 import os
 path='Dataset/test'
 files =[]

@@ -11,14 +11,18 @@ model.load_weights("model.h5")
 print("Loaded model from disk")
 
 def classify(img_path):
-    img = image.load_img(img_path, target_size = (64, 64))
+    img_name=img_path
+    img = image.load_img(img_name, target_size = (64, 64))
     img = image.img_to_array(img)
     img = np.expand_dims(img, axis = 0)
     pred = model.predict(img)
     if pred[0][0] ==1:
-        return "Vadivelu"
+        predivtion="Vadivelu"
     else:
-        return "Sangakkara"
+        predivtion="Sangakkara"
+    print(predivtion,img_name)
+    
+     
 import os
 path='Dataset/test'
 files =[]

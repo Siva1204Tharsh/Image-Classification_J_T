@@ -29,6 +29,8 @@ files =[]
 #r=root, d=directories, f = files
 for r, d, f in os.walk(path):
     for file in f:
-        files.append(os.path.join(r, file))
+        if '.jpg' in file:
+          files.append(os.path.join(r, file))
 for f in files:
-    print(classify(f))
+    classify(f)
+    print('\n')

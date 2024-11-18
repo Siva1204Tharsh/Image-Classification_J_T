@@ -1,7 +1,7 @@
 from pygoogle_image import image as pi
 
-
-pi.download("Vadivelu", limit=5)
+ 
+pi.download("black tiger shrimp", limit=10)
 
 
 

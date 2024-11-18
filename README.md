@@ -4,11 +4,11 @@
 example photos.
 
 * Diagram  -Workflow
-  ![image](https://github.com/user-attachments/assets/2e916835-05a4-4787-b94e-5f6194c445ae)
-
+  * ![image](https://github.com/user-attachments/assets/2e916835-05a4-4787-b94e-5f6194c445ae)
 * CNN
-  ![image](https://github.com/user-attachments/assets/4825dbf8-28f2-45de-9731-f92ecf80690f)
+* ![image](https://github.com/user-attachments/assets/4825dbf8-28f2-45de-9731-f92ecf80690f)
 
+  
 
 
 
